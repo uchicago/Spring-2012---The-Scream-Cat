@@ -15,6 +15,15 @@
 		379292A11552919E003465D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379292A01552919E003465D7 /* AppDelegate.m */; };
 		379292A41552919E003465D7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379292A21552919E003465D7 /* MainStoryboard.storyboard */; };
 		379292A71552919E003465D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379292A61552919E003465D7 /* ViewController.m */; };
+		37B112AA1552E437004B2DD9 /* BackgroundMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 37B112A41552E437004B2DD9 /* BackgroundMusic.mp3 */; };
+		37B112AB1552E437004B2DD9 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B112A51552E437004B2DD9 /* camera.png */; };
+		37B112AC1552E437004B2DD9 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B112A61552E437004B2DD9 /* cat.png */; };
+		37B112AD1552E437004B2DD9 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B112A71552E437004B2DD9 /* star.png */; };
+		37B112AE1552E437004B2DD9 /* Suspense.caf in Resources */ = {isa = PBXBuildFile; fileRef = 37B112A81552E437004B2DD9 /* Suspense.caf */; };
+		37B112AF1552E437004B2DD9 /* TheScream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37B112A91552E437004B2DD9 /* TheScream.jpg */; };
+		37B112B11552E457004B2DD9 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 37B112B01552E457004B2DD9 /* README.markdown */; };
+		37C925F515529E5E0047CB0D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C925F415529E5E0047CB0D /* AudioToolbox.framework */; };
+		37C925F815529E630047CB0D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C925F715529E630047CB0D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +31,24 @@
 		379292901552919D003465D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		379292921552919D003465D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		379292941552919D003465D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		379292981552919D003465D7 /* TheScream-Info.plist */ = {isa = PBXFileReference; path = "TheScream-Info.plist"; sourceTree = "<group>"; };
+		379292981552919D003465D7 /* TheScream-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheScream-Info.plist"; sourceTree = "<group>"; };
 		3792929A1552919D003465D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3792929C1552919D003465D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3792929E1552919D003465D7 /* TheScream-Prefix.pch */ = {isa = PBXFileReference; path = "TheScream-Prefix.pch"; sourceTree = "<group>"; };
-		3792929F1552919D003465D7 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3792929E1552919D003465D7 /* TheScream-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TheScream-Prefix.pch"; sourceTree = "<group>"; };
+		3792929F1552919D003465D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		379292A01552919E003465D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		379292A31552919E003465D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		379292A51552919E003465D7 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		379292A51552919E003465D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		379292A61552919E003465D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37B112A41552E437004B2DD9 /* BackgroundMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BackgroundMusic.mp3; sourceTree = "<group>"; };
+		37B112A51552E437004B2DD9 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		37B112A61552E437004B2DD9 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		37B112A71552E437004B2DD9 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		37B112A81552E437004B2DD9 /* Suspense.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Suspense.caf; sourceTree = "<group>"; };
+		37B112A91552E437004B2DD9 /* TheScream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheScream.jpg; sourceTree = "<group>"; };
+		37B112B01552E457004B2DD9 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		37C925F415529E5E0047CB0D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		37C925F715529E630047CB0D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C925F815529E630047CB0D /* AVFoundation.framework in Frameworks */,
+				37C925F515529E5E0047CB0D /* AudioToolbox.framework in Frameworks */,
 				379292911552919D003465D7 /* UIKit.framework in Frameworks */,
 				379292931552919D003465D7 /* Foundation.framework in Frameworks */,
 				379292951552919D003465D7 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +70,7 @@
 		379292811552919C003465D7 = {
 			isa = PBXGroup;
 			children = (
+				37B112A31552E437004B2DD9 /* MyResources */,
 				379292961552919D003465D7 /* TheScream */,
 				3792928F1552919D003465D7 /* Frameworks */,
 				3792928D1552919D003465D7 /* Products */,
@@ -67,6 +88,8 @@
 		3792928F1552919D003465D7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				37C925F715529E630047CB0D /* AVFoundation.framework */,
+				37C925F415529E5E0047CB0D /* AudioToolbox.framework */,
 				379292901552919D003465D7 /* UIKit.framework */,
 				379292921552919D003465D7 /* Foundation.framework */,
 				379292941552919D003465D7 /* CoreGraphics.framework */,
@@ -96,6 +119,20 @@
 				3792929E1552919D003465D7 /* TheScream-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37B112A31552E437004B2DD9 /* MyResources */ = {
+			isa = PBXGroup;
+			children = (
+				37B112A41552E437004B2DD9 /* BackgroundMusic.mp3 */,
+				37B112A51552E437004B2DD9 /* camera.png */,
+				37B112A61552E437004B2DD9 /* cat.png */,
+				37B112A71552E437004B2DD9 /* star.png */,
+				37B112A81552E437004B2DD9 /* Suspense.caf */,
+				37B112A91552E437004B2DD9 /* TheScream.jpg */,
+				37B112B01552E457004B2DD9 /* README.markdown */,
+			);
+			path = MyResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +188,13 @@
 			files = (
 				3792929B1552919D003465D7 /* InfoPlist.strings in Resources */,
 				379292A41552919E003465D7 /* MainStoryboard.storyboard in Resources */,
+				37B112AA1552E437004B2DD9 /* BackgroundMusic.mp3 in Resources */,
+				37B112AB1552E437004B2DD9 /* camera.png in Resources */,
+				37B112AC1552E437004B2DD9 /* cat.png in Resources */,
+				37B112AD1552E437004B2DD9 /* star.png in Resources */,
+				37B112AE1552E437004B2DD9 /* Suspense.caf in Resources */,
+				37B112AF1552E437004B2DD9 /* TheScream.jpg in Resources */,
+				37B112B11552E457004B2DD9 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +319,7 @@
 				379292AC1552919E003465D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
